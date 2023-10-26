@@ -19,8 +19,6 @@ namespace Alpaca4d.Core.Template
 
             return MKtcl.ToString();
         }
-
-
     }
 
     public static class StringBuilderExtensions

@@ -190,7 +190,9 @@
     <EmbeddedResource Include="Resources\Material\steel_material.json" />
     <EmbeddedResource Include="Resources\Section\steel_section.json" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Template\test\" />
+  </ItemGroup>
   <ItemGroup />
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

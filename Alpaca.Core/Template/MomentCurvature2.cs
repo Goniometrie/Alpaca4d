@@ -37,4 +37,5 @@ namespace Alpaca4d.Core.Template
             return stringBuilder;
         }
     }
+}
 

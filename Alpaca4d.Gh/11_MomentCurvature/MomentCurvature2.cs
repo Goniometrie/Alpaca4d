@@ -45,7 +45,7 @@ namespace Alpaca4d.Gh._11_MomentCurvature
 
             if (run) 
             {
-                string text = Alpaca4d.Template.
+                string text = "0"; 
             }
         }
 

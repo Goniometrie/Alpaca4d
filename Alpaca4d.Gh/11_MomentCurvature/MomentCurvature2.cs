@@ -1,8 +1,7 @@
-﻿using System;
+﻿using Grasshopper.Kernel;
+using System;
 using System.Collections.Generic;
-
-using Grasshopper.Kernel;
-using Rhino.Geometry;
+using Alpaca4d;
 
 namespace Alpaca4d.Gh._11_MomentCurvature
 {
@@ -40,13 +39,12 @@ namespace Alpaca4d.Gh._11_MomentCurvature
         protected override void SolveInstance(IGH_DataAccess DA)
         {
             bool run = false;
-            //string dir = "y";
             DA.GetData(0, ref run);
 
             if (run) 
             {
-                string text = "0"; 
-            }
+                string text = Alpaca4d.Template.
+            };
         }
 
         /// <summary>
